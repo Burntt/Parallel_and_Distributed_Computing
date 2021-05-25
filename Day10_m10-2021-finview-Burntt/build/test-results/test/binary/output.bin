@@ -1,0 +1,70 @@
+9D [+       0ms] T[Test worker ]: Added an event listener
+ND [+      32ms] T[pool-2-thread-1]: Registered thread [25] as the user thread
+9D [+      32ms] T[Test worker ]: Added an event listener
+RD [+      33ms] T[pool-4-thread-1]: Registered thread [26] as the renderer thread
+@D [+   15355ms] T[Test worker ]: UI library is shutting down...
+;D [+   15355ms] T[Test worker ]: UI library was shut down.
+9D [+   15362ms] T[Test worker ]: Added an event listener
+ND [+   15362ms] T[pool-7-thread-1]: Registered thread [60] as the user thread
+9D [+   15362ms] T[Test worker ]: Added an event listener
+RD [+   15363ms] T[pool-9-thread-1]: Registered thread [61] as the renderer thread
+<D [+   15363ms] T[Test worker ]: Refresh button was clicked
+rD [+   15363ms] T[pool-7-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+cD [+   15363ms] T[pool-6-thread-1]: Listeners for 'refreshButtonClicked' took 160366ns to complete
+SD [+   15406ms] T[pool-7-thread-1]: Okay, the tick is: 3376.563133 @ 1621459903096
+KD [+   15407ms] T[pool-9-thread-1]: Scheduling the renderer to be executed
+RD [+   15407ms] T[pool-6-thread-1]: Rendered text [SPY: 3376.563; ticked 0ms ago]
+GD [+   15407ms] T[pool-6-thread-1]: Renderer took 179818ns to complete
+UD [+   15407ms] T[pool-6-thread-1]: Listeners for 'rendered' took 9213ns to complete
+<D [+   15466ms] T[Test worker ]: Refresh button was clicked
+rD [+   15467ms] T[pool-7-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+cD [+   15467ms] T[pool-6-thread-1]: Listeners for 'refreshButtonClicked' took 274402ns to complete
+SD [+   16374ms] T[pool-7-thread-1]: Okay, the tick is: 3481.507925 @ 1621459904064
+KD [+   16375ms] T[pool-9-thread-1]: Scheduling the renderer to be executed
+fD [+   16376ms] T[pool-6-thread-1]: Rendered text [SPY: 3481.508; ticked 968ms ago; changed +103.11%]
+GD [+   16376ms] T[pool-6-thread-1]: Renderer took 551853ns to complete
+UD [+   16376ms] T[pool-6-thread-1]: Listeners for 'rendered' took 5293ns to complete
+<D [+   16468ms] T[Test worker ]: Refresh button was clicked
+rD [+   16470ms] T[pool-7-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+cD [+   16470ms] T[pool-6-thread-1]: Listeners for 'refreshButtonClicked' took 973712ns to complete
+SD [+   16502ms] T[pool-7-thread-1]: Okay, the tick is: 3383.006436 @ 1621459904192
+KD [+   16503ms] T[pool-9-thread-1]: Scheduling the renderer to be executed
+eD [+   16504ms] T[pool-6-thread-1]: Rendered text [SPY: 3383.006; ticked 128ms ago; changed +97.17%]
+GD [+   16504ms] T[pool-6-thread-1]: Renderer took 488155ns to complete
+UD [+   16504ms] T[pool-6-thread-1]: Listeners for 'rendered' took 4292ns to complete
+@D [+   16569ms] T[Test worker ]: UI library is shutting down...
+;D [+   16570ms] T[Test worker ]: UI library was shut down.
+OD [+   16577ms] T[pool-11-thread-1]: Registered thread [69] as the user thread
+sD [+   16578ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   16788ms] T[pool-11-thread-1]: Okay, the tick is: 2447.483517 @ 1621459904478
+sD [+   16789ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   16834ms] T[pool-11-thread-1]: Okay, the tick is: 2427.849471 @ 1621459904524
+sD [+   16835ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   17459ms] T[pool-11-thread-1]: Okay, the tick is: 2768.462353 @ 1621459905149
+sD [+   17460ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   17651ms] T[pool-11-thread-1]: Okay, the tick is: 3223.348089 @ 1621459905341
+sD [+   17652ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   18092ms] T[pool-11-thread-1]: Okay, the tick is: 3900.146200 @ 1621459905782
+sD [+   18092ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   18207ms] T[pool-11-thread-1]: Okay, the tick is: 3154.591134 @ 1621459905896
+sD [+   18207ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   18254ms] T[pool-11-thread-1]: Okay, the tick is: 3930.862867 @ 1621459905943
+sD [+   18254ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   18562ms] T[pool-11-thread-1]: Okay, the tick is: 3768.457981 @ 1621459906252
+sD [+   18562ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   18608ms] T[pool-11-thread-1]: Okay, the tick is: 4101.809065 @ 1621459906298
+sD [+   18609ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   19208ms] T[pool-11-thread-1]: Okay, the tick is: 3673.592362 @ 1621459906898
+sD [+   19209ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   19219ms] T[pool-11-thread-1]: Okay, the tick is: 3611.700435 @ 1621459906909
+sD [+   19219ms] T[pool-11-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   19267ms] T[pool-11-thread-1]: Okay, the tick is: 3157.307864 @ 1621459906956
+OD [+   19271ms] T[pool-13-thread-1]: Registered thread [94] as the user thread
+sD [+   19271ms] T[pool-13-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   19391ms] T[pool-13-thread-1]: Okay, the tick is: 2487.458856 @ 1621459907081
+sD [+   19392ms] T[pool-13-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   19521ms] T[pool-13-thread-1]: Okay, the tick is: 2621.938822 @ 1621459907211
+sD [+   19524ms] T[pool-13-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   19754ms] T[pool-13-thread-1]: Okay, the tick is: 2720.479012 @ 1621459907443
+sD [+   19755ms] T[pool-13-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+TD [+   19938ms] T[pool-13-thread-1]: Okay, the tick is: 2783.024748 @ 1621459907628

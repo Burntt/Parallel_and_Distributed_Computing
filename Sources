@@ -1,0 +1,38 @@
+Day 1
+
+-- Forgot to save --
+
+Day 2
+
+-- Blocking Queue --
+
+https://dzone.com/articles/java-concurrency-blocking-queu#:~:text=A%20blocking%20queue%20is%20a,an%20item%20into%20the%20queue.
+
+-- Why synchronized is necessary --
+
+https://stackoverflow.com/questions/30262209/exception-in-thread-main-java-lang-illegalmonitorstateexception/30262285
+
+Day 3
+
+-- RW Lock -- 
+
+https://stackoverflow.com/questions/49372668/implementing-a-resource-read-write-lock-in-java
+
+-- Pour! Drink! --
+
+https://stackoverflow.com/questions/43834700/printing-alternative-output-from-2-threads-using-semaphores
+
+Day 4
+
+-- East West Bridge --
+
+https://www.cs.umd.edu/~hollings/cs412/s98/synch/eastwest.html
+
+https://github.com/mattec92/KTH/blob/master/ID1217%20-%20Concurrent%20Programming/Lab%202%20-%20Semaphores/OneLaneBridge.java
+
+https://www.cse.chalmers.se/edu/course/TDA384_LP1/files/exams/2015-10.pdf
+
+Day 5
+
+
+https://www.acepace.net/2020-07-09-deadlock/

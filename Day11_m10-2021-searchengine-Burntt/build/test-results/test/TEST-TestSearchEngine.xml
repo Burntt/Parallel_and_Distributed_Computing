@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSearchEngine" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-15T13:04:05" hostname="PC" time="0.053">
+  <properties/>
+  <testcase name="testCorrectness()" classname="TestSearchEngine" time="0.053"/>
+  <system-out><![CDATA[java.util.concurrent.CompletableFuture@4baa43af[Completed normally]
+java.util.concurrent.CompletableFuture@336bf2f1[Not completed]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

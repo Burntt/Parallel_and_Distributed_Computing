@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestBBQ" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-05-05T19:19:30" hostname="PC" time="4.629">
+  <properties/>
+  <testcase name="testSixteenThreadsPassingIntegers(int) capacity 1" classname="TestBBQ" time="2.458"/>
+  <testcase name="testSixteenThreadsPassingIntegers(int) capacity 4" classname="TestBBQ" time="1.077"/>
+  <testcase name="testPutBlocks(int) capacity 1" classname="TestBBQ" time="0.101"/>
+  <testcase name="testPutBlocks(int) capacity 4" classname="TestBBQ" time="0.101"/>
+  <testcase name="testTwoThreadsPassingObjects(int) capacity 1" classname="TestBBQ" time="0.549"/>
+  <testcase name="testTwoThreadsPassingObjects(int) capacity 4" classname="TestBBQ" time="0.132"/>
+  <testcase name="testSimple()" classname="TestBBQ" time="0.0"/>
+  <testcase name="testTakeBlocks(int) capacity 1" classname="TestBBQ" time="0.1"/>
+  <testcase name="testTakeBlocks(int) capacity 4" classname="TestBBQ" time="0.101"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

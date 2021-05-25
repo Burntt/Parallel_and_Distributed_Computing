@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.7.1')
+    testImplementation('com.google.guava:guava:30.1.1-jre')
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty 'useReplaces', System.getProperty('useReplaces')
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+    }
+}
+
+application {
+    mainClassName = 'SearchEngineBenchmark'
+}

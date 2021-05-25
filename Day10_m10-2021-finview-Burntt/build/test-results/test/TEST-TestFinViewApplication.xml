@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestFinViewApplication" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-19T21:31:27" hostname="PC" time="16.577">
+  <properties/>
+  <testcase name="testTimings()" classname="TestFinViewApplication" time="15.368"/>
+  <testcase name="testThreeClicks()" classname="TestFinViewApplication" time="1.209"/>
+  <system-out><![CDATA[D [+       0ms] T[Test worker ]: Added an event listener
+D [+      32ms] T[pool-2-thread-1]: Registered thread [25] as the user thread
+D [+      32ms] T[Test worker ]: Added an event listener
+D [+      33ms] T[pool-4-thread-1]: Registered thread [26] as the renderer thread
+D [+   15355ms] T[Test worker ]: UI library is shutting down...
+D [+   15355ms] T[Test worker ]: UI library was shut down.
+D [+   15362ms] T[Test worker ]: Added an event listener
+D [+   15362ms] T[pool-7-thread-1]: Registered thread [60] as the user thread
+D [+   15362ms] T[Test worker ]: Added an event listener
+D [+   15363ms] T[pool-9-thread-1]: Registered thread [61] as the renderer thread
+D [+   15363ms] T[Test worker ]: Refresh button was clicked
+D [+   15363ms] T[pool-7-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+D [+   15363ms] T[pool-6-thread-1]: Listeners for 'refreshButtonClicked' took 160366ns to complete
+D [+   15406ms] T[pool-7-thread-1]: Okay, the tick is: 3376.563133 @ 1621459903096
+D [+   15407ms] T[pool-9-thread-1]: Scheduling the renderer to be executed
+D [+   15407ms] T[pool-6-thread-1]: Rendered text [SPY: 3376.563; ticked 0ms ago]
+D [+   15407ms] T[pool-6-thread-1]: Renderer took 179818ns to complete
+D [+   15407ms] T[pool-6-thread-1]: Listeners for 'rendered' took 9213ns to complete
+D [+   15466ms] T[Test worker ]: Refresh button was clicked
+D [+   15467ms] T[pool-7-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+D [+   15467ms] T[pool-6-thread-1]: Listeners for 'refreshButtonClicked' took 274402ns to complete
+D [+   16374ms] T[pool-7-thread-1]: Okay, the tick is: 3481.507925 @ 1621459904064
+D [+   16375ms] T[pool-9-thread-1]: Scheduling the renderer to be executed
+D [+   16376ms] T[pool-6-thread-1]: Rendered text [SPY: 3481.508; ticked 968ms ago; changed +103.11%]
+D [+   16376ms] T[pool-6-thread-1]: Renderer took 551853ns to complete
+D [+   16376ms] T[pool-6-thread-1]: Listeners for 'rendered' took 5293ns to complete
+D [+   16468ms] T[Test worker ]: Refresh button was clicked
+D [+   16470ms] T[pool-7-thread-1]: I am a grumpy library, so I am going to sleep for a while... hang on there...
+D [+   16470ms] T[pool-6-thread-1]: Listeners for 'refreshButtonClicked' took 973712ns to complete
+D [+   16502ms] T[pool-7-thread-1]: Okay, the tick is: 3383.006436 @ 1621459904192
+D [+   16503ms] T[pool-9-thread-1]: Scheduling the renderer to be executed
+D [+   16504ms] T[pool-6-thread-1]: Rendered text [SPY: 3383.006; ticked 128ms ago; changed +97.17%]
+D [+   16504ms] T[pool-6-thread-1]: Renderer took 488155ns to complete
+D [+   16504ms] T[pool-6-thread-1]: Listeners for 'rendered' took 4292ns to complete
+D [+   16569ms] T[Test worker ]: UI library is shutting down...
+D [+   16570ms] T[Test worker ]: UI library was shut down.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

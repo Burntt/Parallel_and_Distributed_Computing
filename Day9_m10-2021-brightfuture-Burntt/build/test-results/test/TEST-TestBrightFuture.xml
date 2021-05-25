@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestBrightFuture" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-05-15T12:37:43" hostname="PC" time="34.466">
+  <properties/>
+  <testcase name="testPollUntilCompletion_TenFailures()" classname="TestBrightFuture" time="3.021"/>
+  <testcase name="testQuorumVote_WaitForDecision()" classname="TestBrightFuture" time="1.006"/>
+  <testcase name="testPollUntilCompletion_ThreeFailures()" classname="TestBrightFuture" time="3.005"/>
+  <testcase name="testPrimaryOrBackupOrDefault_Default()" classname="TestBrightFuture" time="2.007"/>
+  <testcase name="testPrimaryOrBackupOrDefault_Backup()" classname="TestBrightFuture" time="2.005"/>
+  <testcase name="testQuorumVote_FastYes()" classname="TestBrightFuture" time="1.002"/>
+  <testcase name="testRetryUntilSuccess_NoFailures()" classname="TestBrightFuture" time="1.004"/>
+  <testcase name="testRenderFacebookProfilePage()" classname="TestBrightFuture" time="2.197"/>
+  <testcase name="testConcatAndUp()" classname="TestBrightFuture" time="1.508"/>
+  <testcase name="testRetryUntilSuccess_TwoFailures()" classname="TestBrightFuture" time="2.009"/>
+  <testcase name="testPollFirstFuture()" classname="TestBrightFuture" time="0.502"/>
+  <testcase name="testQuorumVote_FastNo()" classname="TestBrightFuture" time="1.002"/>
+  <testcase name="testPollUntilCompletion_NoFailures()" classname="TestBrightFuture" time="1.002"/>
+  <testcase name="testQuorumVote_FailureIsNo()" classname="TestBrightFuture" time="2.002"/>
+  <testcase name="testRetrieveMatchingDocuments()" classname="TestBrightFuture" time="1.152"/>
+  <testcase name="testPrimaryOrBackupOrDefault_Primary()" classname="TestBrightFuture" time="1.006"/>
+  <testcase name="testRetryUntilSuccess_ThreeFailures()" classname="TestBrightFuture" time="3.005"/>
+  <testcase name="testRetryUntilSuccess_TenFailures()" classname="TestBrightFuture" time="3.006"/>
+  <testcase name="testConcatMany()" classname="TestBrightFuture" time="1.003"/>
+  <testcase name="testPollUntilCompletion_TwoFailures()" classname="TestBrightFuture" time="2.004"/>
+  <system-out><![CDATA[Execution exceptionjava.util.concurrent.ExecutionException: java.lang.RuntimeException: Whoops!
+Execution exceptionjava.util.concurrent.ExecutionException: java.lang.RuntimeException: Whoops!
+Execution exceptionjava.util.concurrent.ExecutionException: java.lang.RuntimeException: Whoops!
+Execution exceptionjava.util.concurrent.ExecutionException: java.lang.RuntimeException: Whoops!
+Execution exceptionjava.util.concurrent.ExecutionException: java.lang.RuntimeException: Whoops!
+Execution exceptionjava.util.concurrent.ExecutionException: java.lang.RuntimeException: Whoops!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
